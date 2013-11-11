@@ -4,18 +4,9 @@ _Description: Site Shepherd is a Web Site monitoring application that can be run
 
 ## Project Setup
 
-_How do I, as a developer, start working on the project?_ 
-
 1. _Download and run the Selenium Server: http://www.seleniumhq.org/download/._
-2. _Update the sites.txt file with a list of sites you wish to monitor._
-
-## Testing
-
-_None yet!_
-
-### Unit Tests
-
-_None yet!_
+2. _Easy install all packages required to run Site Shepherd: requests, selenium, and apscheduler._
+3. _Update the sites.txt file with a list of sites you wish to monitor._
 
 ## Deploying
 
