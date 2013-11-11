@@ -1,0 +1,7 @@
+## ignore the screenshots directory and the log file
+*~
+*.DS_STORE
+*.swp
+*.out
+*.log
+*screenshots/
