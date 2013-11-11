@@ -1,54 +1,41 @@
-# _Shepherd_
+# _Site Shepherd_
 
-_Description: What does this project do and who does it serve?_
+_Description: Site Shepherd is a Web Site monitoring application that can be run on your local machine to keep tabs on your sites._
 
 ## Project Setup
 
 _How do I, as a developer, start working on the project?_ 
 
-1. _What dependencies does it have (where are they expressed) and how do I install them?_
-2. _How can I see the project working before I change anything?_
+1. _Download and run the Selenium Server: http://www.seleniumhq.org/download/._
+2. _Update the sites.txt file with a list of sites you wish to monitor._
 
 ## Testing
 
-_How do I run the project's automated tests?_
+_None yet!_
 
 ### Unit Tests
 
-1. `rake spec`
-
-### Integration Tests
-
-1. _Run other local services / provide credentials for external services._
-2. `rake spec:integration`
+_None yet!_
 
 ## Deploying
 
-### _How to setup the deployment environment_
-
-- _Required heroku addons, packages, or chef recipes._
-- _Required environment variables or credentials not included in git._
-- _Monitoring services and logging._
-
 ### _How to deploy_
+- _Selenium Server must be running on your machine, download the latest version here: http://www.seleniumhq.org/download/_
+- _Execute the jar file like this: `java -jar selenium-server-standalone-2.37.0.jar`_
+- _Update the sites.txt file to contain a list of Web Sites that you want to monitor._
+- _The following packages are required to run Site Shepherd: requests, selenium, and apscheduler._
+- _To install the packages listed above use `sudo easy_install <package>`_
+- _Start Site Shepherd by running the shepherd.py file like this: `python shepherd.py`_
+- _Logging can be found in the locally created file shepherd.out._
 
 ## Troubleshooting & Useful Tools
 
-_Examples of common tasks_
-
-> e.g.
-> 
-> - How to make curl requests while authenticated via oauth.
-> - How to monitor background jobs.
-> - How to run the app through a proxy.
+- _View the log file in the directory you have deployed inside of._
 
 ## Contributing changes
 
-- _Internal git workflow_
-- _Pull request guidelines_
-- _Tracker project_
-- _Google group_
-- _irc channel_
-- _"Please open github issues"_
+- _Please feel free to help contribute to this project through logging issues or submitting pull requests._
 
 ## License
+
+- _Site Shepherd uses GPLv2, full license is in the repository._
